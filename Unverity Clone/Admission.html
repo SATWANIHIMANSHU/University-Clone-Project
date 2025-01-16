@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Admission</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .container-fluid {
+            height: 80px;
+            /* margin: 20px; */
+            padding: 20px;
+            padding-bottom: 20px;
+            font-size: 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .con-flud {
+            font-size: 25px;
+        }
+
+        .main {
+            padding-left: 90px;
+            padding-top: 100px;
+
+
+        }
+
+        .h4-modify {
+            font-family: 'Playfair-Bold';
+            border-bottom: 5px solid maroon;
+            font-size: 30px;
+            color: maroon;
+            display: inline;
+            line-height: 1.7;
+        }
+
+        .info {
+            padding-left: 90px;
+            padding-top: 50px;
+            font-size: 30px;
+            color: brown;
+        }
+
+        .all-cards {
+            display: flex;
+            padding-left: 95px;
+            column-gap: 80px;
+            padding-top: 100px;
+
+        }
+
+        .heading {
+            padding-bottom: 40px;
+        }
+
+        .prgm-headers {
+            font-size: 30px;
+            font-family: 'Roboto-Light';
+            font-weight: 700;
+            border-bottom: 5px solid maroon;
+            color: maroon;
+            display: inline;
+
+        }
+
+        .More:hover {
+            text-decoration: underline;
+        }
+
+        .topic {
+            padding-left: 95px;
+            padding-top: 110px;
+
+        }
+
+        .finance {
+            color: maroon;
+            font-size: 30px;
+            font-family: 'Playfair-Bold';
+            border-bottom: 5px solid maroon;
+            display: inline;
+        }
+
+        .finance-fig {
+            padding-left: 95px;
+            padding-top: 50px;
+        }
+
+      
+        .finance-main{
+            padding-left: 90px;
+            padding-top: 50px;
+            font-size: 30px;
+            color: maroon;
+            letter-spacing: 2px;
+            padding-bottom: 80px;
+        }
+
+        .inline-links{
+            color: maroon;
+        }
+        
+        .inline-links:hover{
+            color:#b995a1;
+        }
+ 
+   
+        .footer {
+            display: flex;
+            margin: 0;
+            padding: 30px;
+            background-color:black;
+            height: 350px;
+            color: whitesmoke;
+        
+        }
+
+        .footer-col-2 {
+            margin-left: 40px;
+            
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+
+            color: whitesmoke;
+        }
+
+        a:hover {
+            color: yellow
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark container-fluid ">
+        <div class="container-fluid">
+            <a class="navbar-brand con-flud" href="#">Ganpat University</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="project.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Academics.html">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new faculty.html">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Admission.html">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Campus life.html">Campus Life</a>
+                    </li>
+                    
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Facility Details.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Facilities
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Boys Hostel</a></li>
+                            <hr class="dropdown">
+                            <li><a class="dropdown-item" href="#">Girls Hostel</a></li>
+                            <hr class="dropdown">
+                            <li><a class="dropdown-item" href="#"> library</a></li>
+                            <hr class="dropdown">
+                            <li><a class="dropdown-item" href="#">Sports</a></li>
+
+
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Staff</a></li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                        </ul>
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact-Us.html">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success btn-lg" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="figure">
+        <div class="fig">
+            <img src="guni.jpg" width="118.5%">
+        </div>
+
+    </div>
+
+
+    <div class="main">
+        <h4 class="h4-modify">Admission</h4>
+    </div>
+
+    <div class="info">
+        <p>Education at Ganpat University offers and expects intellectual rigour, deep focus on research, unique
+            opportunities for academic collaboration and creative momentum. As new students, you will join a vibrant,
+            talented community dedicated to academic excellence, personal growth and society’s well-being.</p>
+    </div>
+
+
+
+
+    <div class="all-cards">
+
+        <div class="card-1">
+            <div class="heading">
+                <h3 class="prgm-headers">Undergraduate Admission</h3>
+            </div>
+            <div class="card" style="width: 30rem;height: 30rem;">
+                <img class="card-img-top" src="Ad-UG.webp" width="150%" alt="Card image cap">
+                <div class="card-body"
+                    style="background-color: brown;color: white;font-family:'Times New Roman', Times, serif;">
+                    <p class="card-text">With a curriculum broad and deep enough to impart specialised knowledge and
+                        cross-disciplinary learning, both within and outside the classroom, we equip our students to
+                        better navigate the world. The programmes strengthen their base in core subjects while helping
+                        them explore and pursue their passions, by creating an engaging and collaborative environment.
+                    </p>
+                    <p style="padding-top: 50px;" class="More"><a href="http://"
+                            style="color: white; text-decoration: none;">More
+                            About Admission</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card-2">
+            <div class="heading">
+                <h3 class="prgm-headers">Masters Admission</h3>
+
+            </div>
+
+
+            <div class="card card-1" style="width: 30rem;">
+                <img class="card-img-top" src="Masters.webp" width="50%" alt="Card image cap">
+                <div class="card-body"
+                    style="background-color: brown;color: white;font-family:'Times New Roman', Times, serif;">
+                    <p class="card-text">The curriculum of all Master’s programmes is practice based and industry
+                        oriented. Our students are sensitised towards contemporary economic and social development. The
+                        emphasis is on the development of analytical skills and practical exposure through internships
+                        and mentorships. We combine classroom experience with experiential learning through
+                        industry-based projects, research and innovation.
+                    </p>
+                    <p style="padding-top: 24px;" class="More"><a href="http://"
+                            style="color: white; text-decoration: none;">More
+                            About Admission</a></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+
+
+
+    <div class="all-cards">
+
+        <div class="card-1">
+            <div class="heading">
+                <h3 class="prgm-headers">Postgraduate Admission</h3>
+            </div>
+            <div class="card" style="width: 30rem;height: 30rem;">
+                <img class="card-img-top" src="phd.jpg" width="100%" height="318px" alt="Card image cap">
+                <div class="card-body"
+                    style="background-color: brown;color: white;font-family:'Times New Roman', Times, serif;">
+                    <p class="card-text">A PhD degree commands great respect and recognition anywhere you go, since it
+                        reflects on your commitment & hard work in reaching the pinnacle of academic achievement with
+                        significant contribution to knowledge in a specific field/discipline.Through the course of your
+                        PhD, you get to build contacts with renowned experts in the field. All these contacts can serve
+                        as excellent career references for job positions.
+                    </p>
+                    <p style="padding-top: 80px;" class="More"><a href="http://"
+                            style="color: white; text-decoration: none;">More
+                            About Admission</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card-2">
+            <div class="heading">
+                <h3 class="prgm-headers">Education Loan</h3>
+
+            </div>
+
+
+            <div class="card card-1" style="width: 30rem;">
+                <img class="card-img-top" src="loa.webp" width="50%" alt="Card image cap">
+                <div class="card-body"
+                    style="background-color: brown;color: white;font-family:'Times New Roman', Times, serif;">
+                    <p class="card-text">There is no doubt about the importance of education these days. Be it school
+                        education or college education, it serves as a stepping stool for you to achieve your dreams.
+                        Whether it is college education or post-graduation, don’t let high tuition fees hamper your
+                        growth. Getting an education loan is an easy way to finance your dreams. A student loan can help
+                        you get into the University of your Choice. The Government’s push on education means you can
+                        avail education loan subsidy, and you also get tax benefits for interest paid under Section 80E
+                        of the Income Tax Act.
+                    </p>
+                    <p style="padding-top: 32px;" class="More"><a href="http://"
+                            style="color: white; text-decoration: none;">More
+                            About Admission</a></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+
+
+
+    <div class="fees">
+        <div class="topic">
+            <h4 class="finance">
+                Financial Assistance
+
+            </h4>
+
+        </div>
+
+        <div class="finance-body">
+            <div class="finance-fig">
+                <img src="finance.png" width="92%">
+            </div>
+
+            <div class="finance-main">
+                The university provides various schemes for financial assistance to the <a href="http://" class="inline-links">undergraduate, <a href="http://" class="inline-links">postgraduate</a>,<a href="http://" class="inline-links">marine</a>, and <a href="http://" class="inline-links">diploma</a> students in form of scholarships. The other assistance provided to students
+                includes <a href="http://" class="inline-links">Earn While You Learn scheme</a>, <a href="http://" class="inline-links">Needy Students’ Fund</a>, <a href="http://" class="inline-links">Reimbursement of    Interest on  </a>,  <a href="http://" class="inline-links">Educational Loans</a>, <a href="http://" class="inline-links">Book Bank facility</a>, and <a href="http://" class="inline-links">Fellowship</a>. The financial assistance schemes may vary from programme to
+                programme.
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-col">
+
+            <h3 style="padding-left: 30px;"> Student </h3>
+            <ul>
+                <li><a href="">Youth Festival</a></li>
+                <li><a href="">Admission</a></li>
+                <li><a href="">Rules & Regulations</a></li>
+                <li><a href="">Employment & Training</a></li>
+                <li><a href="">Application Forms | Old Questions</a></li>
+            </ul>
+
+
+        </div>
+        <div class="footer-col">
+
+            <h3> Examination </h3>
+            <ul>
+                <li><a href="">Circular</a></li>
+                <li><a href="">Online Exam Registration</a></li>
+                <li><a href="">Examination Schedule</a></li>
+                <li><a href="">Seating Arrangement </a></li>
+                <li><a href="">Result</a></li>
+            </ul>
+
+
+        </div>
+        <div class="footer-col">
+
+            <h3> College/Department </h3>
+            <ul>
+                <li><a href="">Internal Mark Entry System</a></li>
+                <li><a href="">PG Registration & Enrollment</a></li>
+                <li><a href="">Statement</a></li>
+                <li><a href="">Annual Report Format</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col-2">
+
+            <h3> Ganpat University</h3>
+            <br> Ganpat Vidyanagar, Mehsana-Gozaria Highway,
+            <br>PO - 384012,
+            <br>North Gujarat, INDIA
+            <br>Email:info@ganpatuniversity.ac.in
+            <br>Tele Fax : +91-2762-226000, 286080 Toll Free No : 1800 233 12345
+            <br>For Admission: +918100616161
+            <br>Working Time: 09.00 am to 04.00 pm
+
+            <br> <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Academics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .container-fluid {
+            height: 80px;
+            /* margin: 20px; */
+            padding: 20px;
+            padding-bottom: 20px;
+            font-size: 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .con-flud {
+            font-size: 25px;
+        }
+
+        .home {
+            padding: 60px;
+
+        }
+
+        .link {
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .arrow {
+            font-weight: 1000;
+            display: inline-block;
+            padding-right: .1rem;
+            padding-left: .1rem;
+
+        }
+
+       
+
+        .institute {
+            display: flex;
+        }
+
+        h4 {
+            padding-top: 10px;
+            padding-left: 60px;
+            font-size: 70px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .order {
+            padding-left: 80px;
+            padding-top: 20px;
+            font-size: 30px;
+        }
+
+        .order-list {
+            list-style: square;
+            
+        }
+
+        .ach:hover {
+            color: blue;
+            transition: 0.7s;
+            font-size: 40px;
+        }
+
+        .edit:hover {
+            color: blue;
+        }
+
+        .edit {
+            color: black;
+            text-decoration: none;
+
+        }
+
+        .program {
+            display: flex;
+            font-size: 20px;
+
+        }
+
+        .pgm {
+
+            padding-top: 70px;
+        }
+
+        .image2 {
+            padding-left: 170px;
+            padding-top: 100px;
+        }
+
+        .image3 {
+            padding-top: 100px;
+        }
+
+        .faculty {
+            display: flex;
+        }
+
+        .info {
+            padding-top: 80px;
+        }
+
+        .f-links {
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+
+        .f-edit {
+            font-size: 30px;
+            color: black;
+            text-decoration: none;
+        }
+
+    
+        .top
+        {
+            list-style-type: none;
+            font-size: 30px;
+        }
+
+       .all{
+        padding-left: 60px;
+        padding-top: 20px;
+        font-size: 30px;
+        text-transform: lowercase;
+        
+       }
+       .search{
+        font-weight: 600;
+        list-style
+        :none
+       }
+
+       
+       .footer {
+            display: flex;
+            margin: 0;
+            padding: 30px;
+            background-color: black;
+            height: 350px;
+            color: whitesmoke;
+        }
+
+        .footer-col-2 {
+            margin-left: 40px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .hover {
+
+            color: whitesmoke;
+        }
+
+        .hover:hover {
+            color: yellow
+        }
+
+        .name{
+             padding-top: 80px; 
+            font-size: 30px;
+            padding-bottom: 40px;
+            padding-left: 40px;
+        
+                 }
+      .span{
+       font-weight: 700;
+       text-decoration: underline; 
+    }
+
+    .table{
+        padding-top: 30px;
+    }
+    .td{
+        color: black;
+        text-decoration: none;
+    }
+    .td:hover{
+        color: blue;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark container-fluid ">
+        <div class="container-fluid">
+            <a class="navbar-brand con-flud" href="#">Ganpat University</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="project.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Academics.html">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new faculty.html">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Admission.html">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Campus life.html">Campus Life</a>
+                    </li>
+                    
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Facility Details.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Facilities
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Boys Hostel</a></li>
+                            <hr class="dropdown">
+                            <li><a class="dropdown-item" href="#">Girls Hostel</a></li>
+                            <hr class="dropdown">
+                            <li><a class="dropdown-item" href="#"> library</a></li>
+                            <hr class="dropdown">
+                            <li><a class="dropdown-item" href="#">Sports</a></li>
+
+
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Staff</a></li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                        </ul>
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact-Us.html">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success btn-lg" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="home">
+        <a href="project.html" class="link">Home </a>
+        <span class="arrow">></span>
+        <a href="Academics.html" class="link">Academics</a>
+        <hr color="black" size="5%">
+    </div>
+
+
+    <div class="institute">
+        <div class="image">
+            <img src="university.jpg" height="500px" width="600px">
+        </div>
+
+        <div class="list">
+            <h4>Institutes</h4>
+            <ul class="order">
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Architecture</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Commerce</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Design</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Computer Science</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Management</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Pharmacy</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Technology</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Social Sciences & Humanities</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="program">
+        <div class="pgm">
+            <h4> Programes</h4>
+            <ul class="order">
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">After 12th Programs (Undergraduate
+                            Programs)</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">After Graduation (PG Programs)</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">After Post Graduation (PH.D.)</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Post Graduation Diploma</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">After 10th (Diploma Programs)</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Marine Programs</a></li>
+                </div>
+                <div class="ach">
+                    <li class="order-list"><a href="http://" class="edit">Certificate Courses</a></li>
+                </div>
+
+            </ul>
+        </div>
+        <div class="image2">
+            <img src="programes.jpg" height="600px" width="650px">
+        </div>
+    </div>
+
+
+    <div class="faculty">
+        <div class="image3">
+            <img src="faculty.jpg" height="500px" width="600px">
+        </div>
+
+        <div class="info">
+            <h4>Faculty</h4>
+            <div class="f-links">
+                <ul class="top">
+                    <div class="ach">
+                        <li class="order-list"><a href="http://" class="edit"> Engineering & Technology</a></li>
+                    </div>
+                    <div class="ach">
+                        <li class="order-list"><a href="http://" class="edit"> Pharmacy</a></li>
+                    </div>
+                    <div class="ach">
+                        <li class="order-list"><a href="http://" class="edit">Computer Applications</a></li>
+                    </div>
+                    <div class="ach">
+                        <li class="order-list"><a href="http://" class="edit">Management </a></li>
+                    </div>
+                    <div class="ach">
+                        <li class="order-list"><a href="http://" class="edit">Social Sciences & Humanities</a></li>
+                    </div>
+                    <div class="ach">
+                        <li class="order-list"><a href="http://" class="edit"> Nursing</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="all">
+            <ul class="search ach">
+                <li> Search All Faculty</li> 
+            </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="academic-calendar">
+        <div class="name">
+            <span class="span">Academic-Calendar
+            </span>
+            <div class="table">
+                <table class="table table-striped">
+                   
+                    <tbody>
+                      <tr>
+                        <th scope="row">Year of 2023 - 2024</th>
+                        <td></td>
+                        <td></td>
+                        <td style="padding-left: 580px ;" ><a href="academics-calendar-july-dec-2023-jan-june-2024--1.pdf" class="td">Download</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Year of 2021 - 2022</th>
+                        <td></td>
+                        <td></td>
+                        <td style="padding-left: 580px ;" ><a href="academic-calendar-2021-guni-odd-sem-.pdf" class="td">Download</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Year of 2020 - 2021</th>
+                        <td></td>
+                        <td></td>
+                        <td style="padding-left: 580px;" ><a href="academic-calendar-2020-2021.pdf" class="td">Download</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-col">
+
+            <h3 style="padding-left: 30px;"> Student </h3>
+            <ul>
+                <li><a href="" class="hover">Youth Festival</a></li>
+                <li><a href="" class="hover">Admission</a></li>
+                <li><a href="" class="hover">Rules & Regulations</a></li>
+                <li><a href="" class="hover">Employment & Training</a></li>
+                <li><a href="" class="hover">Application Forms | Old Questions</a></li>
+            </ul>
+
+
+        </div>
+        <div class="footer-col">
+
+            <h3> Examination </h3>
+            <ul>
+                <li><a href="" class="hover">Circular</a></li>
+                <li><a href="" class="hover">Online Exam Registration</a></li>
+                <li><a href="" class="hover">Examination Schedule</a></li>
+                <li><a href="" class="hover">Seating Arrangement </a></li>
+                <li><a href="" class="hover">Result</a></li>
+            </ul>
+
+
+        </div>
+        <div class="footer-col">
+
+            <h3> College/Department </h3>
+            <ul>
+                <li><a href="" class="hover">Internal Mark Entry System</a></li>
+                <li><a href="" class="hover">PG Registration & Enrollment</a></li>
+                <li><a href="" class="hover">Statement</a></li>
+                <li><a href="" class="hover">Annual Report Format</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col-2">
+
+            <h3> Ganpat University</h3>
+            <br> Ganpat Vidyanagar, Mehsana-Gozaria Highway,
+            <br>PO - 384012,
+            <br>North Gujarat, INDIA
+            <br>Email:info@ganpatuniversity.ac.in
+            <br>Tele Fax : +91-2762-226000, 286080 Toll Free No : 1800 233 12345
+            <br>For Admission: +918100616161
+            <br>Working Time: 09.00 am to 04.00 pm
+
+            <br> <a href="#" class="hover"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="hover"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="hover"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
