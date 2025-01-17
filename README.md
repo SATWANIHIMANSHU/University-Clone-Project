@@ -1,12 +1,10 @@
-University Clone Frontend Project
-
-Project Overview
+### University Clone Frontend Project
 
 This project is a frontend-only clone of a university website. It replicates the structure and design of a typical academic institution's website,
 including key sections such as the homepage, about page, courses, faculty, and contact information.
 The primary goal of this project is to demonstrate proficiency in HTML, CSS, and responsive design principles.
 
-Features:-
+### Features:-
 
 ### Homepage: ###
 
